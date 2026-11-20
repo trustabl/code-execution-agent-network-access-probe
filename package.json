@@ -1,0 +1,43 @@
+{
+  "name": "@trustabl/code-execution-agent-network-access-probe",
+  "version": "0.1.0",
+  "description": "Trustabl Probe as plain functions for agents that write and run code in a sandbox: draft a network allow list and find tool problems",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "trustabl",
+    "probe",
+    "code-execution",
+    "agents",
+    "sandbox",
+    "network-policy",
+    "openshell"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trustabl/code-execution-agent-network-access-probe.git"
+  },
+  "homepage": "https://github.com/trustabl/code-execution-agent-network-access-probe#readme",
+  "engines": {
+    "node": ">=20"
+  }
+}
