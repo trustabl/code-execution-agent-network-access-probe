@@ -1,0 +1,27 @@
+{
+  "name": "code-execution-agent-network-access-probe",
+  "owner": {
+    "name": "Trustabl",
+    "url": "https://github.com/trustabl"
+  },
+  "metadata": {
+    "description": "Trustabl Probe by code execution: agents write a short script to draft a network allow list and find tool problems, reporting only what the user asked for."
+  },
+  "plugins": [
+    {
+      "name": "code-execution-agent-network-access-probe",
+      "source": "./plugin",
+      "description": "Check an agent tool's network access with Trustabl Probe by writing and running a short script: draft a network allow list and find tool problems, returning only what you ask for. Runs locally; no API key needed.",
+      "homepage": "https://github.com/trustabl/code-execution-agent-network-access-probe",
+      "license": "Apache-2.0",
+      "category": "security",
+      "keywords": [
+        "code-execution",
+        "agents",
+        "network-policy",
+        "sandbox",
+        "openshell"
+      ]
+    }
+  ]
+}
